@@ -36,7 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>sb-rest-test-docker</finalName>
+		<finalname>sb-rest-test-docker</finalname>
 	</build>
 
 </project>

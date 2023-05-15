@@ -1,0 +1,4 @@
+FROM openjdk:17
+EXPOSE 8010
+ADD target/sb-rest-test-docker.jar sb-rest-test-docker.jar
+ENTRYPOINT ["java","-jar","/sb-rest-test-docker.jar"]
